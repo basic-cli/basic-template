@@ -3,7 +3,6 @@ module.exports = [
         type:'input',
         name:'projectname',
         message:'projectname',
-        default:'<%=projectname%>'
     },
     {
       type:'confirm',
