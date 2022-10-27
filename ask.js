@@ -1,9 +1,16 @@
 module.exports = [
-  {
+    {
+        type:'input',
+        name:'projectname',
+        message:'projectname',
+        default:'<%=projectname%>'
+    },
+    {
       type:'confirm',
       name:'private',
       message:'this resgistery is private?'
   },
+
   {
       type:'input',
       name:'author',

@@ -1,7 +1,7 @@
 {
-  "name": "<%=name%>",
+  "name": "<%=projectname%>",
   "version": "1.0.0",
-  "description": "",
+  "description": "basic template",
   "main": "index.js",
   "private": "<%=private%>",
   "scripts": {
