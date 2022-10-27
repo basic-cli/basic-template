@@ -1,9 +1,9 @@
 {
-  "name": "basic-template",
+  "name": "<%=name%>",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "private":"true",
+  "private": "<%=private%>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,8 +12,8 @@
     "url": "git+https://github.com/basic-cli/basic-template.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "<%=author%>",
+  "license": "<%=license%>",
   "bugs": {
     "url": "https://github.com/basic-cli/basic-template/issues"
   },

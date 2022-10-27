@@ -18,6 +18,16 @@ module.exports = [
       type:'input',
       name:'license',
       message:'license'
-  }
-  
+  },
+  // 系统配置
+    {
+        type:'input',
+        name:'systemName',
+        message:'systemName[系统中文名称]:'
+    },
+    {
+        type:'input',
+        name:'abbreviation',
+        message:'abbreviation[系统简称]:'
+    }
 ]
